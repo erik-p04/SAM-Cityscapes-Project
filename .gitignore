@@ -1,0 +1,4 @@
+checkpoints/sam_vit_h_4b8939.pth
+data/cityscapes/gtFine/
+data/cityscapes/leftImg8bit/
+src/__pycache__/

@@ -1,0 +1,12 @@
+torch>=2.6.0
+torchvision>=0.17.0
+torchaudio>=2.6.0
+opencv-python
+matplotlib
+scipy
+numpy
+tqdm
+pyyaml
+pycocotools
+git+https://github.com/facebookresearch/segment-anything.git
+--extra-index-url https://download.pytorch.org/whl/cu126
