@@ -1,3 +1,4 @@
+from torch import device
 import yaml
 from tqdm import tqdm
 import numpy as np
@@ -14,6 +15,7 @@ from src.dataset import CityscapesDataset, CITYSCAPES_IDS
 from src.sam_predict import SAMZeroShot
 from src.point_sampling import get_center_point
 from src.metrics import iou
+from src.utils import get_device
 
 # Main script for Phase 1: Zero-Shot Segmentation on Cityscapes
 
